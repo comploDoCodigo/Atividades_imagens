@@ -1,0 +1,186 @@
+# depslib dependency file v1.0
+1621457877 source:c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\vector2.h
+
+1621457877 source:c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"Bola.h"
+	"Relogio.h"
+	"Botao.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\bola.h
+	"gl_canvas2d.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\relogio.h
+	"gl_canvas2d.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\botao.h
+	"gl_canvas2d.h"
+
+1621457877 source:c:\users\thiag\downloads\cg\cg\demos\gl_1_canvasglut\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1621457877 source:c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\include\gl\glut.h
+	"freeglut_std.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\vector2.h
+
+1621909871 source:c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\relogio.h
+	"gl_canvas2d.h"
+
+1621909849 source:c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"Bola.h"
+	"Relogio.h"
+	"Botao.h"
+	"Quadrado.h"
+	"Circulo.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\bola.h
+	"gl_canvas2d.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\botao.h
+	"gl_canvas2d.h"
+
+1621909064 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\quadrado.h
+	"gl_canvas2d.h"
+
+1621909715 c:\users\thiag\downloads\cg\cg\demos\atividades_introducao\src\circulo.h
+	"gl_canvas2d.h"
+
+1621457877 source:c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\include\gl\glut.h
+	"freeglut_std.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\vector2.h
+
+1622055558 source:c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\bola.h
+	"gl_canvas2d.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\relogio.h
+	"gl_canvas2d.h"
+
+1621457877 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\botao.h
+	"gl_canvas2d.h"
+
+1621909064 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\quadrado.h
+	"gl_canvas2d.h"
+
+1621909715 c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\circulo.h
+	"gl_canvas2d.h"
+
+1621909871 source:c:\users\thiag\downloads\cg\cg\demos\atividades_imagem\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
