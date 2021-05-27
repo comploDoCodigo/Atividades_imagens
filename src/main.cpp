@@ -21,8 +21,11 @@
 #include <stdlib.h>
 
 #include "gl_canvas2d.h"
+#include "bmp.h"
 
-
+Bmp *img1;
+unsigned char *data;
+int bytesLine;
 //variavel global para selecao do que sera exibido na canvas.
 int opcao  = 50;
 int screenWidth = 720, screenHeight = 720; //largura e altura inicial da tela . Alteram com o redimensionamento de tela.
@@ -49,14 +52,25 @@ void DesenhaCoseno()
    }
 }
 
+void DesenhaImagem(){
+    CV::translate(100, 200);
+    for(int y=0; y<img1->getHeight(); y++){
+        for(int x=0; x<img1->getWidth()*3; x+=3){
+            CV::color(data[y*bytesLine+x], data[y*bytesLine+x+1], data[y*bytesLine+x+2]);
+            CV::point(x/3,y);
+        }
+    }
+    CV::clear(100,100,100);
+}
+
 
 //funcao chamada continuamente. Deve-se controlar o que desenhar por meio de variaveis globais
 //Todos os comandos para desenho na canvas devem ser chamados dentro da render().
 //Deve-se manter essa função com poucas linhas de codigo.
 void render()
 {
-
-    DesenhaCoseno();
+    DesenhaImagem();
+    //DesenhaCoseno();
 }
 
 //funcao chamada toda vez que uma tecla for pressionada.
@@ -88,7 +102,7 @@ void mouse(int button, int state, int wheel, int direction, int x, int y)
    mouseX = x; //guarda as coordenadas do mouse para exibir dentro da render()
    mouseY = y;
 
-   printf("\nmouse %d %d %d %d %d %d", button, state, wheel, direction,  x, y);
+   //printf("\nmouse %d %d %d %d %d %d", button, state, wheel, direction,  x, y);
 
    if( state == 0 ) //clicou
    {
@@ -98,6 +112,10 @@ void mouse(int button, int state, int wheel, int direction, int x, int y)
 
 int main(void)
 {
+    img1 = new Bmp(".\\atividades_imagem\\resources\\glider.bmp");
+   img1->convertBGRtoRGB();
+   data = img1->getImage();
+   bytesLine = (3 * (img1->getWidth() + 1) / 4) * 4;
 
    CV::init(&screenWidth, &screenHeight, "Titulo da Janela: Canvas 2D - Pressione 1, 2, 3");
    CV::run();
